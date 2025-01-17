@@ -27,6 +27,8 @@ FireBeetle 2 ESP32-S3 offers a camera interface onboard for easy connection with
 In addition, FireBeetle 2 ESP32-S3 supports WiFi and Bluetooth 5 (LE) dual-mode communication that reduces the difficulty of networking, and also both Bluetooth Mesh protocol and Espressif WiFi Mesh are supported for more stable communication and a larger coverage area. With the support of Matter protocol, the board can be used to develop industrial standard smart home devices for a wider range of IoT scenarios.
 FireBeetle 2 ESP32-S3 can be programmed by Arduino IDE, ESP-IDF, MicroPython and CircuitPython. Both C and Python are supported.
 
+TinyUF2 boot loader for CircuitPython .UF2 can be found here: https://github.com/adafruit/tinyuf2/releases/tag/0.20.1
+
 To use the camera under CircuitPython, you need to use the included frozen module `AXP313a`.
 For more information, please refer to the module [documentation](https://circuitpython-axp313a.readthedocs.io/en/latest/).
 
